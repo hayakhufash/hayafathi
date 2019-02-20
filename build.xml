@@ -7,7 +7,7 @@
 <property name ="result.jar.file" location="./Myproduct.jar"/>
 <target name="compile">
             <mkdir dir ="${result.javaclasses.dir}"/>
-            <javac srcdir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true" includeantruntime="false" classpath="C:\Users\Haya\jar_files\junit-4.12">
+   <javac srcdir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true" includeantruntime="false" classpath="C:\Users\Haya\jar_files\junit-4.12">
             </javac>
 </target>
 <!-- comment Make jar or executable product -->
@@ -46,7 +46,7 @@
               <formatter type="brief" usefile="false"/>
               <batchtest >
                   <fileset dir="${result.testclasses.dir}" >
-                       <include name="**/*Test.class"/>
+                       <include name="**/*test.class"/>
                   </fileset>
               </batchtest>
               

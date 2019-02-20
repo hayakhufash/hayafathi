@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 
 
-public class shopingchart {
+public class shopingchart_test {
 @Test  //Testcase1
  public void test1() {
 	shoping ha=new shoping();
